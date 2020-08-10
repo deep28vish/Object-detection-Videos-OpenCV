@@ -1,10 +1,25 @@
-Object Detection in Video- (OpenCV)
-This is 2 of 3 notebooks check out the 1st notebook to learn about object detection and OpenCV for images- https://github.com/deep28vish/Object-Detection-Images-OpenCV
+# Object Detection in Videos using OpenCV
 
-IMAGE detection in a video is same concept as image detection in images, as video is nothing but images flowing at 24 images per second.
+## About
+This is 2 of 3 notebook that shows the use of OpenCV to detect objects in video. 
+Fist notebook 1/3 shows the implementation of OpenCV to detect Object in images which can be found [here](https://github.com/deep28vish/Object-Detection-Images-OpenCV). where as 3/3 notebook shows the same but this time the source of video is using a [webcam](https://github.com/deep28vish/Object-Detection-Webcam-OpenCV).
 
-Here again we will use classifiers by provided by OpenCV - https://github.com/opencv/opencv/tree/master/data/haarcascades
+These are sample codes ready to run without any prior knowledge of AI, ML DNN, CNN these 50 lines are just plain simple ready to run.
 
-To avoid the clutter and make the output as smooth as possible we will use only 2 classifier in our vid.
+## Requirements
+* [Opencv(cv2)](https://pypi.org/project/opencv-python/)
+* [Cascade classifiers](https://github.com/deep28vish/Object-Detection-Images-OpenCV/tree/master/haar_cascades)
+## Contents
+* haar_cascades[Folder with all the required classifiers]
+* OBJECT_DETECTION_VIDEO.py
+* Object_detection_video.ipynb [detailed description]
+* [Sample_input_video](https://www.vidsplay.com/peoplenyc.html)
+* Output sample:
+    * color.png
+    * gray.jpg
+    
+## Inspiration
+* [SENTDEX](https://pythonprogramming.net/)
 
-Please Download example vid - https://www.vidsplay.com/peoplenyc.html
+## Takeaway
+This is just to see how to load classifiers and execute it using OPENCV in python for Videos.
